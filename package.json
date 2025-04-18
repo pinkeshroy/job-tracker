@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "homepage": "https://pinkeshroy.github.io/job-tracker",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack.config.mjs",
@@ -20,6 +19,7 @@
     "@mui/icons-material": "^7.0.1",
     "@mui/material": "^7.0.1",
     "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
