@@ -1,0 +1,10 @@
+# Node modules
+node_modules
+
+package-lock.json
+# Build output directories (modify if you use a different folder name)
+dist
+build
+
+# Environment files
+.env
