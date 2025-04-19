@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "proxy": "http://localhost:5001",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack.config.mjs",
@@ -16,12 +17,16 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@mui/icons-material": "^7.0.1",
+    "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.1",
+    "@mui/x-data-grid": "^8.0.0",
+    "@reduxjs/toolkit": "^2.7.0",
     "axios": "^1.8.4",
-    "dotenv": "^16.5.0",
+    "jwt-decode": "^4.0.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
@@ -29,10 +34,12 @@
     "@babel/preset-react": "^7.26.3",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
+    "dotenv": "^16.5.0",
     "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.98.0",
+    "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.1"
   }
