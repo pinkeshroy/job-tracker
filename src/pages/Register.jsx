@@ -46,7 +46,7 @@ const Register = () => {
       setLoading(true);
       const data = await registerUser(form); // API call
       dispatch(setCredentials({ token: data.data.token }));
-      navigate("/dashboard");
+      navigate("/");
     } catch (err) {
       console.error("Registration error:", err);
       setError(err?.response?.data?.message || "Registration failed");
