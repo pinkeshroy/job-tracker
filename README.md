@@ -84,6 +84,7 @@ cd job-tracker
 ### 2.Create .env
 ```
 REACT_APP_API_BASE_URL=http://localhost:5001
+NODE_ENV=develpoment
 
 ```
 ### 3. Install Dependencies
@@ -114,7 +115,7 @@ docker run -p 80:80 job-tracker
 ## Deployment
 You can deploy this app on:
 
-“* [✔️ Vercel (Live Demo)](https://job-tracker-one-bay.vercel.app)”
+[✔️ Vercel (Live Demo)](https://job-tracker-one-bay.vercel.app)
 
 - Netlify
 
