@@ -121,3 +121,14 @@ You can deploy this app on:
 
 - Dockerized NGINX (for any cloud platform)
 
+---
+
+## 👥 License & Author
+
+**📄 License:**  
+This project is licensed under the **ISC License** — feel free to use, modify, and distribute it as needed.
+
+**🧑‍💻 Author:**  
+Crafted with ❤️ by [@pinkeshroy](https://github.com/pinkeshroy)
+
+> If you find this project helpful, give it a ⭐️ on GitHub and feel free to contribute or report issues!
