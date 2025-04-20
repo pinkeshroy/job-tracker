@@ -1,7 +1,6 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { fileURLToPath } from 'url';
-import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import  webpack  from 'webpack';
 import dotenv from 'dotenv';
 dotenv.config();
@@ -32,7 +31,6 @@ export default {
     new HtmlWebpackPlugin({
       template: 'public/index.html'
     }),
-    new BundleAnalyzerPlugin(),
     new webpack.DefinePlugin({
       'process.env': JSON.stringify(process.env), // inject all env variables
     }),
