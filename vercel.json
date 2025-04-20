@@ -1,17 +1,12 @@
 {
-  "builds": [
-    {
-      "src": "webpack.config.mjs",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
+    "version": 2,
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
       }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
-}
+    ]
+  }
+  
